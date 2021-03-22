@@ -6,7 +6,6 @@ module.exports = {
     entry: path.resolve(__dirname, 'src', 'index.jsx'),
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/dist/',
         filename: 'bundle.js',
     },
     resolve: {
